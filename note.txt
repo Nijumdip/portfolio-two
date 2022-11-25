@@ -1,3 +1,7 @@
 yarn create next-app portfolio-two
+yarn create next-app portfolio-two with-tailwindcss
 yan dev
+
+tailwindcss install
+flowbite install
 
