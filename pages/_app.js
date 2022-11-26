@@ -1,9 +1,18 @@
+import Navigation from "../Components/navigation";
 import "../styles/globals.css";
-import Navigation from "./Components/navigation";
+import Image from "next/image";
+
 
 function MyApp({ Component, pageProps }) {
     return (
       <>
+      <div className="fixed -z-10 w-screen h-screen">
+        <Image
+            src="/bgOne.jpg" 
+            alt="Mountains with snow"
+            layout="fill"
+            objectFit="cover" />
+      </div>
         <Navigation />
         <Component {...pageProps} />
       </>

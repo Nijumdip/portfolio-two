@@ -4,4 +4,6 @@ yan dev
 
 tailwindcss install
 flowbite install
+add fontawesome kit
+react icons =>(yarn add react-icons --save)
 
