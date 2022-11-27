@@ -8,7 +8,7 @@ function SocialMedia() {
     return (
         <div class="flex items-center justify-center space-x-3 mt-4 ">
             <Link
-                href="/"
+                href="https://m.me/nizum.nizum.1481/"
                 className=" px-2 py-1 rounded-lg bg-white text-blue-600 home" >
                 <h1 className="p-2"> <GrFacebookOption /> </h1>
             </Link>
