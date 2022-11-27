@@ -4,6 +4,9 @@
  html{
     scroll-behavior: smooth;
  }
+/* .custom-img{
+   background-image: url("https://i.ibb.co/4VRSWvV/nijum-pic-removebg-preview.png");
+ } */
 .navbar-image{
     height:80px;
 }

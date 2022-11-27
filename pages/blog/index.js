@@ -5,7 +5,7 @@ function index() {
     <>
     <div id="blog" className="bg-gray-100 px-4 xl:px-0 py-12">
         <div className="mx-auto container">
-            <h1 className="text-center text-3xl lg:text-5xl tracking-wider text-gray-900">Latest from our Blog</h1>
+            <h1 className="text-center text-3xl lg:text-5xl tracking-wider text-gray-900">Latest from my Blog</h1>
             <div className="mt-12 lg:mt-24">
                 <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8">
                     <div>
