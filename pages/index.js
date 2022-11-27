@@ -1,5 +1,6 @@
 
 import Head from "next/head";
+import Hero from "../Components/hero";
 
 
 export default function Home() {
@@ -13,9 +14,9 @@ export default function Home() {
             
             
 
-            <div>
-                <h1>hello</h1>
-            </div>
+            <div className="flex items-center justify-center">
+                <Hero />
+             </div>
         </>
     );
 }

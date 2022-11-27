@@ -19,3 +19,8 @@
     background-image :linear-gradient(to right, #f84551 , #e0226b);
     color: white;
  }
+
+ .hero-main{
+   height: 250px;
+   width: 240px;
+ }
