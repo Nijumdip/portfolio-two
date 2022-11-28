@@ -14,7 +14,7 @@ function Hero() {
 
                 <div className="flex flex-col items-center justify-center">
                     <h1 className=" text-2xl font-bold mt-6"> Shamima Akter </h1>
-                    <h1 className="text-gray-400 mt-2 "> Front-End Developer </h1>
+                    <h1 className="text-gray-500 mt-2 "> Front-End Developer </h1>
                     <SocialMedia />
                     <a href="/Shamima Akter (1).pdf" download className="py-2 rounded-full bg-white home mt-6 w-64 flex items-center justify-center">
                         <button className="flex items-center justify-center">

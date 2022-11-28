@@ -5,6 +5,7 @@ export default function Document() {
         <Html>
             <Head>
                 <link href="/dist/output.css" rel="stylesheet"></link>
+                <script src="../path/to/flowbite/dist/flowbite.js"></script>
 
                 <script
                     src="https://kit.fontawesome.com/38e307f30a.js"

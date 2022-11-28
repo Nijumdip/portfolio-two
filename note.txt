@@ -1,9 +1,4 @@
-yarn create next-app portfolio-two
-yarn create next-app portfolio-two with-tailwindcss
-yan dev
+install nextjs app
+install flowbite
 
-tailwindcss install
-flowbite install
-add fontawesome kit
-react icons =>(yarn add react-icons --save)
-
+install reactIcons
