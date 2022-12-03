@@ -5,9 +5,9 @@ function About() {
     return (
         <>
             <div class="px-6 mx-6 rounded-2xl py-12 md:px-12 bg-gray-50 text-gray-800 text-center lg:text-left ">
-                <div class="container mx-auto xl:px-20 ">
-                    <div class="grid lg:grid-cols-2  ">
-                        <div class="mb-12 lg:mb-0">
+                <div class="mx-auto xl:px-20">
+                    <div class="flex justify-center items-center gap-5 ">
+                        <div class="mb-12 grid ">
                             <h3 class="text-4xl leading-5 dark:text-white font-semibold text-gray-800 mt-8 ">
                                 About Us 
                             </h3>{" "}
@@ -18,7 +18,7 @@ function About() {
                                 alt=""
                             />
                         </div>
-                        <div class="mt-20  lg:mb-0">
+                        <div class="-mt-24">
                             <h1>Who am i?</h1>
                             <p>
                                 I'm Front-end Developer from Dhaka, Bangladesh, working in web
@@ -32,8 +32,8 @@ function About() {
                                     <FiSmartphone className="h-12 w-12 p-2 rounded-lg shadow bg-white" />
                                 </h1>
 
-                                <h3 class="text-xl leading-5 dark:text-white font-semibold text-gray-800 lg:mt-10 mt-8">
-                                    Delivery
+                                <h3 class="font-semibold text-gray-800">
+                                    Phone
                                 </h3>
                             </div>
                         </div>
