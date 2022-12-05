@@ -1,10 +1,12 @@
 import React from "react";
 import { FiSmartphone } from "react-icons/fi";
+import AboutCard from "../Components/aboutCard";
 
 function About() {
     return (
         <>
             <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-5 xl:gap-0 lg:py-16 lg:grid-cols-12 bg-white rounded-3xl m-5">
+                
                 <div class="w-80 lg:mt-0 lg:col-span-5 lg:flex flex-col ml-0 sm:ml-14 rounded-2xl">
                     <div className="flex flex-row">
                         <h1 className="text-4xl font-bold">About Me </h1>
@@ -30,7 +32,7 @@ function About() {
                     </p>
 
                     <h5 class="mb-2 text-2xl font-normal text-gray-900">Personal Info</h5>
-                    <div class="grid grid-cols-2 gap-4">
+                    <div class="grid grid-cols-2 gap-5">
                         <div className="flex flex-row">
                             <div>
                                 <FiSmartphone className="h-12 w-12 p-2 mr-2 rounded-lg shadow bg-white" />
@@ -71,6 +73,9 @@ function About() {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="mt-20 lg:col-span-7">
+                <AboutCard />
                 </div>
             </div>
         </>
