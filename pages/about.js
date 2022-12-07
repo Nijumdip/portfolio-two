@@ -74,7 +74,7 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div className="mt-20 lg:col-span-7 ml-0 sm:ml-14">
+                <div className="mt-20 lg:col-span-12 ml-0 sm:ml-14">
                 <AboutCard />
                 </div>
             </div>
