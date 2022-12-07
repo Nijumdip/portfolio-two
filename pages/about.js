@@ -3,10 +3,54 @@ import { FiSmartphone } from "react-icons/fi";
 import AboutCard from "../Components/aboutCard";
 
 function About() {
+    const aboutCard = [
+        {
+            _id: 1,
+            name: "Web Design",
+            description:
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor architecto tenetur unde neque culpa libero omnis? Deserunt perspiciatis unde magni.",
+            img: "https://placeimg.com/400/225/arch",
+        },
+        {
+            _id: 2,
+            name: "Web Development",
+            description:
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor architecto tenetur unde neque culpa libero omnis? Deserunt perspiciatis unde magni.",
+            img: "https://placeimg.com/400/225/arch",
+        },
+        {
+            _id: 3,
+            name: "App Development",
+            description:
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor architecto tenetur unde neque culpa libero omnis? Deserunt perspiciatis unde magni.",
+            img: "https://placeimg.com/400/225/arch",
+        },
+        {
+            _id: 4,
+            name: "Figma to Html",
+            description:
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor architecto tenetur unde neque culpa libero omnis? Deserunt perspiciatis unde magni.",
+            img: "https://placeimg.com/400/225/arch",
+        },
+        {
+            _id: 5,
+            name: "Existing Site Re-development",
+            description:
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor architecto tenetur unde neque culpa libero omnis? Deserunt perspiciatis unde magni.",
+            img: "https://placeimg.com/400/225/arch",
+        },
+        {
+            _id: 6,
+            name: "Management",
+            description:
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor architecto tenetur unde neque culpa libero omnis? Deserunt perspiciatis unde magni.",
+            img: "https://placeimg.com/400/225/arch",
+        },
+    ];
+
     return (
         <>
             <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-5 xl:gap-0 lg:py-16 lg:grid-cols-12 bg-white rounded-3xl m-5">
-                
                 <div class="w-80 lg:mt-0 lg:col-span-5 lg:flex flex-col ml-0 sm:ml-14 rounded-2xl">
                     <div className="flex flex-row">
                         <h1 className="text-4xl font-bold">About Me </h1>
@@ -74,8 +118,14 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div className="mt-20 lg:col-span-12 ml-0 sm:ml-14">
-                <AboutCard />
+
+                <div className=" mt-20 p-6 bg-pink-100 rounded-lg shadow-md lg:col-span-12 flex flex-wrap justify-center items-center gap-5">
+                   
+                    
+                        {aboutCard.map((card) => (
+                            <AboutCard key={card._id} card={card}></AboutCard>
+                        ))}
+                   
                 </div>
             </div>
         </>
